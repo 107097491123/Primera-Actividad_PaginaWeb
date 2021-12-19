@@ -7,7 +7,14 @@ let form = document.getElementById('form')
 
 
 function validar() {
-    alert(`${usuario.value} ${email.value} ${password.value} ${profesion.value} ${comentario.value}`)
+    let mensaje = `
+     Usuario: ${usuario.value}\n
+     Email: ${email.value}\n 
+     password ${password.value}\n 
+     profesion ${profesion.value}\n 
+     comentario: ${comentario.value}`
+
+     alert(mensaje)   
 }
 
 form.addEventListener('submit', validar)

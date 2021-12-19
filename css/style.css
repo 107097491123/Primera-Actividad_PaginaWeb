@@ -251,13 +251,13 @@ footer .social-footer img {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding: 5px;
+        padding: 30px 5px;
     } 
 
     .text-principal {
         width: 100%;
         margin: 0;
-        padding: 170px 0 0 0;
+        padding: 150px 0 0 0;
         color: white;
         display: flex;
         justify-content: center;
@@ -287,7 +287,7 @@ footer .social-footer img {
        display: flex;
        justify-content: center;
        align-items: center;
-       margin-bottom: 20px;
+       padding-bottom: 40px;
     }
 
     .image-secundary {
