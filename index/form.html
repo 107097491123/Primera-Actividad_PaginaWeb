@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="shortcut icon" href="../Images/logo_2.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="../Icons/icons8-flecha-izquierda-larga-40.png" alt="imagen de flecha izquierda">
+        <a href="../index/index.html">Atras</a>
+    </header>
+    <section class="form">
+        <form action="" id="form">
+            <h1>Bienvenido</h1>
+            <label for="Usuario">Usuario</label>
+            <input type="text" name="Usuario" id="usuario" placeholder="Ingresa tu Nombre de Usuario" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu Correo Electronico" required>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="Ingresa tu Contraseña" required>
+            <label for="Profesion">Profesion</label>
+            <select name="Profesion" id="profesion" required>
+                <label for="Profesion">Profesion</label>
+                <option value="-">Seleccione una opcion</option>
+                <option value="Medico">Medico</option>
+                <option value="Enfermero">Enfermero</option>
+                <option value="Ingeniero">Ingeniero</option>
+                <option value="Abogado">Abogado</option>
+                <option value="Ninguna">Ninguna</option>
+                <option value="N/A">N/A</option>
+            </select>
+            <label for="comentario">comentario</label>
+            <textarea name="comentario" id="comentario" required ></textarea>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
+    <script src="../javascript/form.js"></script>
+</body>
+</html>
